@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+}
+header {
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e55473;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.navbar-item {
+  list-style: none;
+  padding-right: 20px;
+}
+.item-link {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  font-weight: 450px;
+  background-color: hotpink;
+  padding: 10px;
+  border-radius: 5px;
+}
+.item-link:hover {
+  color: hotpink;
+  background-color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+.cart-name {
+  font-weight: bolder;
+  margin-left: 10px;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+}
+.intro-section {
+  background-color: rgba(229, 84, 115, 0.1);
+  margin: 0;
+  padding: 0;
+  background-image: url("../Flower/pngwing\ 10.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+  box-sizing: border-box;
+  width: 100%;
+}
+h1 {
+  color: #272727;
+
+  font-size: 80px;
+
+  font-weight: 800;
+  max-width: 708px;
+  margin: 0px 972px 0px 240px;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+.description {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+
+  margin: 50px 240px 0px 240px;
+  font-weight: 400;
+  max-width: 634px;
+}
+.primary-button {
+  color: #fff;
+
+  font-size: 20px;
+
+  font-weight: 700;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px;
+  gap: 5px;
+  border: none;
+  margin: 50px 240px;
+  cursor: pointer;
+}
+.primary-button:hover {
+  background-color: black;
+  color: #e55473;
+}
+.featured-title {
+  color: #272727;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+}
+.featured-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  margin: 20px auto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 594px;
+}
+
+.featured-images {
+  max-width: 50%;
+  margin: 48px auto 0px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.image-container {
+  margin: 0px 10px;
+  width: 464px;
+  height: 538px;
+
+  justify-content: center;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.pink {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 110px 76px 0px 78px;
+}
+.mixed {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  padding: 117px 47px 51px 47px;
+}
+.yellow {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  padding: 67px 75px 0px 75px;
+}
+figcaption {
+  color: #272727;
+  text-align: center;
+
+  font-size: 24px;
+
+  font-weight: 700;
+
+  text-decoration-line: underline;
+  margin-bottom: 20px;
+}
