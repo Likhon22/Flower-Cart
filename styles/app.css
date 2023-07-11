@@ -38,12 +38,13 @@ nav {
   border-radius: 5px;
 }
 .cart-name {
-  font-weight: bolder;
+  font-weight: 700;
   margin-left: 10px;
   align-items: center;
   color: white;
   font-size: 30px;
   padding: 20px;
+  font-family: 'Oswald', sans-serif;
 }
 .intro-section {
   background-color: rgba(229, 84, 115, 0.1);
@@ -326,6 +327,7 @@ input[name="email"] {
 
   font-weight: 800;
   text-align: center;
+  padding-top: 100px;
 }
 .shop {
   color: white;
