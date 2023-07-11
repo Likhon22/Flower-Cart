@@ -285,6 +285,7 @@ span {
   font-size: 18px;
 
   font-weight: 400;
+  padding-top: 15px;
 }
 .subscribe-form {
 }
@@ -293,9 +294,10 @@ input[name="email"] {
   height: 60px;
   color: black;
   border: 1px solid hotpink;
-  margin-left: 300px;
+  margin-left: 350px;
   border-radius: 8px;
-  margin-top: 20px;
+  margin-top: 30px;
+  padding-left: 20px;
 }
 .submit-button {
   color: #fff;
