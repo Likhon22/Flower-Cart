@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 header {
   width: 100%;
@@ -20,16 +21,17 @@ nav {
 }
 .item-link {
   text-decoration: none;
-  color: white;
+ color: hotpink;
+  background-color: white;
   font-size: large;
   font-weight: 450px;
-  background-color: hotpink;
+
   padding: 10px;
   border-radius: 5px;
 }
 .item-link:hover {
-  color: hotpink;
-  background-color: white;
+  color:white;
+ background-color: hotpink;
   cursor: pointer;
   padding: 10px;
   border-radius: 5px;
@@ -141,7 +143,7 @@ h1 {
   background: rgba(71, 125, 17, 0.15);
   padding: 67px 75px 0px 75px;
 }
-figcaption {
+.image-name {
   color: #272727;
   text-align: center;
 
@@ -150,5 +152,28 @@ figcaption {
   font-weight: 700;
 
   text-decoration-line: underline;
-  margin-bottom: 20px;
+  margin: 20px 0px;
+}
+.service {
+  display: flex;
+  max-width: 1440px;
+  max-height: 320px;
+  margin: 120px auto 0px auto;
+  justify-content: center;
+
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+.service-icon img {
+  width: 88px;
+  height: 88px;
+}
+.service-icon {
+  padding: 60px 70px;
+  text-align: center;
+  color: rgba(39, 39, 39, 0.8);
+
+  font-size: 20px;
+
+  font-weight: 600;
 }
