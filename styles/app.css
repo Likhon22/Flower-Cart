@@ -1,6 +1,7 @@
 * {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+
 }
 header {
   width: 100%;
@@ -9,6 +10,7 @@ nav {
   display: flex;
   justify-content: space-between;
   background-color: #e55473;
+  width: 100%;
 }
 .navbar {
   display: flex;
@@ -21,7 +23,7 @@ nav {
 }
 .item-link {
   text-decoration: none;
- color: hotpink;
+  color: hotpink;
   background-color: white;
   font-size: large;
   font-weight: 450px;
@@ -30,8 +32,8 @@ nav {
   border-radius: 5px;
 }
 .item-link:hover {
-  color:white;
- background-color: hotpink;
+  color: white;
+  background-color: hotpink;
   cursor: pointer;
   padding: 10px;
   border-radius: 5px;
@@ -176,4 +178,58 @@ h1 {
   font-size: 20px;
 
   font-weight: 600;
+}
+.discount-main {
+  width: 100%;
+  height: 620px;
+  border-radius: 8px;
+  margin-top: 120px;
+  display: flex;
+  object-fit: fill;
+   background: rgba(229, 84, 115, 0.05);
+    padding: 230px 962px 20px 412px;
+    align-items: center;
+ 
+}
+
+.discount-heading {
+  color: #272727;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 800;
+  height: 48px;
+}
+span {
+  color: #e55473;
+}
+.discount-description {
+  width: 594px;
+
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+  padding-top: 30px;
+}
+.signup-button {
+  background-color: #e55473;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 8px;
+  margin-top:40px ;
+  margin-left: 220px;
+}
+.sign-up{
+  text-decoration: none;
+
+  font-size: 20px;
+
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+.discount-img {
+ 
+  padding-left: 200px;
+  padding-bottom: 260px;
+  align-content: center;
 }
