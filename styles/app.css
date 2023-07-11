@@ -1,7 +1,6 @@
 * {
   margin: 0;
   font-family: "Roboto", sans-serif;
-
 }
 header {
   width: 100%;
@@ -186,10 +185,9 @@ h1 {
   margin-top: 120px;
   display: flex;
   object-fit: fill;
-   background: rgba(229, 84, 115, 0.05);
-    padding: 230px 962px 20px 412px;
-    align-items: center;
- 
+  background: rgba(229, 84, 115, 0.05);
+  padding: 230px 562px 20px 412px;
+  align-items: center;
 }
 
 .discount-heading {
@@ -215,10 +213,11 @@ span {
   border: none;
   padding: 20px 40px;
   border-radius: 8px;
-  margin-top:40px ;
+  margin-top: 40px;
   margin-left: 220px;
+  cursor: pointer;
 }
-.sign-up{
+.sign-up {
   text-decoration: none;
 
   font-size: 20px;
@@ -227,9 +226,123 @@ span {
   text-align: center;
   color: #fff;
 }
+.signup-button:hover {
+  background-color: black;
+}
 .discount-img {
- 
   padding-left: 200px;
   padding-bottom: 260px;
   align-content: center;
+}
+.insta {
+  text-align: center;
+}
+.insta-title {
+  color: #272727;
+  text-align: center;
+
+  font-size: 40px;
+
+  font-weight: 800;
+  padding-top: 128px;
+}
+.insta-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  width: 594px;
+  font-size: 18px;
+  font-weight: 400;
+
+  margin: 30px auto;
+}
+.insta-photo {
+  display: inline-block;
+  margin-top: 30px;
+  padding-left: 15px;
+}
+.subscribe {
+  width: 1440px;
+  height: 449px;
+  background-image: url("../Flower/Rectangle\ 9.png");
+  margin: 100px auto;
+}
+
+.subscribe-info {
+  text-align: center;
+}
+.subscribe-heading {
+  color: #272727;
+
+  font-size: 40px;
+
+  font-weight: 800;
+  padding-top: 80px;
+}
+.subscribe-description {
+  color: rgba(39, 39, 39, 0.6);
+
+  font-size: 18px;
+
+  font-weight: 400;
+}
+.subscribe-form {
+}
+input[name="email"] {
+  width: 600px;
+  height: 60px;
+  color: black;
+  border: 1px solid hotpink;
+  margin-left: 300px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.submit-button {
+  color: #fff;
+
+  font-size: 20px;
+
+  font-weight: 700;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 18px 40px;
+  margin-left: 20px;
+  border: none;
+
+  cursor: pointer;
+}
+.submit-button:hover {
+  background-color: black;
+  color: #e55473;
+}
+.footer-info {
+  width: 100%;
+  height: 450px;
+  background-color: black;
+}
+.footer-title {
+  color: #e55473;
+  padding-top: 50px;
+  font-size: 48px;
+
+  font-weight: 800;
+  text-align: center;
+}
+.shop {
+  color: white;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  width: 625px;
+  font-size: 18px;
+  margin: 15px auto;
+  font-weight: 400;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+
+  font-size: 16px;
+
+  font-weight: 400;
 }
